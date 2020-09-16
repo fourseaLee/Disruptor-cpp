@@ -44,6 +44,7 @@ endif()
 set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} ${COMPILER_FLAGS} ${WARNING_FLAGS}")
 
 add_subdirectory(Disruptor)
+add_subdirectory(Disruptor.MatchEngine)
 
 if(DISRUPTOR_BUILD_TESTS)
     add_subdirectory(googletest-release-1.8.0)

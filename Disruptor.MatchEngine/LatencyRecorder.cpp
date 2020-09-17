@@ -1,7 +1,7 @@
 #include "stdafx.h"
-#include "Disruptor.MatchEngine/LatencyRecorder.h"
+#include "LatencyRecorder.h"
 
-#include "Disruptor.MatchEngine/DurationHumanizer.h"
+#include "DurationHumanizer.h"
 
 
 namespace Disruptor
@@ -21,7 +21,7 @@ namespace Util
 
     std::ostream& operator<<(std::ostream& stream, const DurationPrinter& printer)
     {
-        auto humanDuration = Tests::DurationHumanizer::deduceHumanDuration(std::chrono::nanoseconds(printer.value));
+        auto humanDuration =Util::DurationHumanizer::deduceHumanDuration(std::chrono::nanoseconds(printer.value));
 
         return stream << humanDuration.value << " " << humanDuration.shortUnitName;
     }

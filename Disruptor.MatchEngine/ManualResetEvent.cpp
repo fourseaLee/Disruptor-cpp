@@ -1,5 +1,5 @@
 #include "stdafx.h"
-#include "Disruptor.MatchEngine/ManualResetEvent.h"
+#include "ManualResetEvent.h"
 
 
 namespace Disruptor

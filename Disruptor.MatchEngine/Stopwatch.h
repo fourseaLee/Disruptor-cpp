@@ -6,7 +6,7 @@
 
 namespace Disruptor
 {
-namespace PerfUtil
+namespace Engine
 {
 
     class Stopwatch

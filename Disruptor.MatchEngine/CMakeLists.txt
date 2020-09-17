@@ -19,3 +19,13 @@ set(libutil_sources
 )
 
 add_library(util STATIC ${libutil_sources})
+
+
+set(match_source
+	OneToOneRawThroughput.cpp
+	main.cpp
+	)
+
+add_executable(matchengine ${match_source})
+
+target_link_libraries(matchengine DisruptorStatic util pthread ${Boost_LIBRARIES} boost_thread)

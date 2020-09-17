@@ -4,7 +4,7 @@
 
 namespace Disruptor
 {
-namespace PerfUtil
+namespace Engine
 {
 
     Stopwatch::Stopwatch()

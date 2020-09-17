@@ -3,7 +3,7 @@
 #include <memory>
 #include <initializer_list>
 #include <iosfwd>
-
+#include <vector>
 #include "Disruptor/ICursored.h"
 #include "Disruptor/IHighestPublishedSequenceProvider.h"
 #include "Disruptor/ISequenced.h"

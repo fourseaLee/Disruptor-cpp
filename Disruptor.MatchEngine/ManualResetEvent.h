@@ -2,7 +2,7 @@
 
 #include "Disruptor/ClockConfig.h"
 
-#include "Disruptor.TestTools/ResetEvent.h"
+#include "ResetEvent.h"
 
 
 namespace Disruptor
